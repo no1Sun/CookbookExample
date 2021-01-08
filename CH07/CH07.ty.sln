@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CH07.StaticResourceDemo", "CH07.StaticResourceDemo\CH07.StaticResourceDemo.csproj", "{0B2848CA-A78D-43A9-82CC-7B4D4C84847A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CH07.MVVMDemo", "CH07.MVVMDemo\CH07.MVVMDemo.csproj", "{FF9780CD-5189-4AB5-92B3-FACF33C0DB28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B2848CA-A78D-43A9-82CC-7B4D4C84847A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B2848CA-A78D-43A9-82CC-7B4D4C84847A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B2848CA-A78D-43A9-82CC-7B4D4C84847A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B2848CA-A78D-43A9-82CC-7B4D4C84847A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF9780CD-5189-4AB5-92B3-FACF33C0DB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF9780CD-5189-4AB5-92B3-FACF33C0DB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF9780CD-5189-4AB5-92B3-FACF33C0DB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF9780CD-5189-4AB5-92B3-FACF33C0DB28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BD65DED-85F4-420C-8951-57D0A5C3DC58}
+	EndGlobalSection
+EndGlobal
