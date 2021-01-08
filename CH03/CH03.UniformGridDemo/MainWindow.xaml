@@ -6,10 +6,43 @@
         xmlns:local="clr-namespace:CH03.UniformGridDemo"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <UniformGrid>
+    <!--<UniformGrid>
         <Label Content="Cell 1" Background="Yellow" />
         <Label Content="Cell 2" Background="YellowGreen" />
         <Label Content="Cell 3" Background="Orange" />
         <Label Content="Cell 4" Background="OrangeRed" />
+        <Label Content="Cell 5" Background="Violet" />
+        <Label Content="Cell 6" Background="DeepSkyBlue" />
+        <Label Content="Cell 7" Background="SkyBlue" />
+    </UniformGrid>-->
+    <!--<UniformGrid Rows="2">
+        <Label Content="Cell 1" Background="Yellow" />
+        <Label Content="Cell 2" Background="YellowGreen" />
+        <Label Content="Cell 3" Background="Orange" />
+        <Label Content="Cell 4" Background="OrangeRed" />
+        <Label Content="Cell 5" Background="Violet" />
+        <Label Content="Cell 6" Background="DeepSkyBlue" />
+        <Label Content="Cell 7" Background="SkyBlue" />
+    </UniformGrid>-->
+    <!--<UniformGrid Columns="4" FirstColumn="2">
+        <Label Content="Cell 1" Background="Yellow" />
+        <Label Content="Cell 2" Background="YellowGreen" />
+        <Label Content="Cell 3" Background="Orange" />
+        <Label Content="Cell 4" Background="OrangeRed" />
+        <Label Content="Cell 5" Background="Violet" />
+        <Label Content="Cell 6" Background="DeepSkyBlue" />
+        <Label Content="Cell 7" Background="SkyBlue" />
+    </UniformGrid>-->
+
+    <UniformGrid FlowDirection="RightToLeft">
+        <Label Content="Cell 1" Background="Yellow" />
+        <Label Content="Cell 2" Background="YellowGreen" />
+        <Label Content="Cell 3" Background="Orange" />
+        <Label Content="Cell 4" Background="OrangeRed" />
+        <Label Content="Cell 5" Background="Violet" />
+        <Label Content="Cell 6" Background="DeepSkyBlue" />
+        <Label Content="Cell 7" Background="SkyBlue" />
     </UniformGrid>
 </Window>
+
+    
