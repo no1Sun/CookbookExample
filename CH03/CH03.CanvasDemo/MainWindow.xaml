@@ -6,7 +6,16 @@
         xmlns:local="clr-namespace:CH03.CanvasDemo"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <Canvas>
+        <Label Width="100" Height="60"
+						Background="GreenYellow"
+						Canvas.Left="70" Canvas.Top="40"
+						Content="(70, 40)"
+						FontSize="20" FontWeight="Bold"/>
+        <Label Width="100" Height="60"
+						Background="YellowGreen"
+						Canvas.Left="220" Canvas.Top="90"
+						Content="(220, 90)"
+						FontSize="20" FontWeight="Bold"/>
+    </Canvas>
 </Window>
